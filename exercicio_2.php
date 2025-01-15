@@ -1,6 +1,7 @@
 <?php
 
 
+// Criar uma função para testar sequência de Fibonacci
 function fibonacci($numero)
 {
     $fibonacci = [0, 1];
@@ -13,6 +14,8 @@ function fibonacci($numero)
         return "O número $numero não pertence à sequência de Fibonacci. <br>";
     }
 }
+
+// Imprimir e validar se o número pertence à sequência de Fibonacci
 
 echo fibonacci(5);
 echo fibonacci(9);

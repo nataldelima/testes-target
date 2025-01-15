@@ -46,8 +46,8 @@ $maiorValor = number_format($maiorValor, 2, ',', '.');
 $mediaFaturamento = number_format($mediaFaturamento, 2, ',', '.');
 
 // Exibe os resultados
-echo "<br>Menor valor de faturamento: R$ {$menorValor}";
-echo "<br>Maior valor de faturamento: R$ {$maiorValor}";
-echo "<br>Número de dias acima da média: {$diasAcimaMedia}";
-echo "<br>Média mensal de faturamento: R$ {$mediaFaturamento}";
-echo "<br>Total de dias com faturamento: {$diasComFaturamento}";
+echo "Menor valor de faturamento: R$ $menorValor <br>";
+echo "Maior valor de faturamento: R$ $maiorValor <br>";
+echo "Número de dias acima da média: $diasAcimaMedia <br>";
+echo "Média mensal de faturamento: R$ $mediaFaturamento <br>";
+echo "Total de dias com faturamento: $diasComFaturamento <br>";

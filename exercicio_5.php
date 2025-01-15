@@ -15,13 +15,13 @@ function inverterString($texto)
 
 // Exemplo com string definida no código
 $texto = "Ola mundo";
-echo "Texto original: " . $texto . "<br>";
+echo "Texto original: $texto <br>";
 echo "Texto invertido: " . inverterString($texto) . "<br><br>";
 
 $texto = "O texto sera invertido";
-echo "Texto original: " . $texto . "<br>";
+echo "Texto original: $texto <br>";
 echo "Texto invertido: " . inverterString($texto) . "<br><br>";
 
-$entrada = trim(fgets(STDIN)); // Lê a entrada do usuário
-echo "Texto original: " . $entrada . "\n";
-echo "Texto invertido: " . inverterString($entrada) . "\n";
+$texto = "Natal Silva de Lima";
+echo "Texto original: $texto <br>";
+echo "Texto invertido: " . inverterString($texto) . "<br><br>";

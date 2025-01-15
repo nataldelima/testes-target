@@ -13,18 +13,18 @@ $faturamento = [
 $total = array_sum($faturamento);
 
 // Calcula e exibe o percentual para cada estado
-echo "Percentual de representação por estado:<br>";
+echo "Percentual de representação por estado:<br><br>";
 
 foreach ($faturamento as $estado => $valor) {
     $percentual = ($valor / $total) * 100;
     $valorFormatado = number_format($valor, 2, ',', '.');
     $percentualFormatado = number_format($percentual, 2, ',', '.');
 
-    echo "<br><br>" . $estado . ":";
-    echo "<br>Valor: R$ $valorFormatado\n";
-    echo "<br>Percentual: $percentualFormatado%\n\n";
+    echo "$estado :<br>";
+    echo "Valor: R$ $valorFormatado <br>";
+    echo "Percentual: $percentualFormatado% <br><br>";
 }
 
 // Exibe o valor total
 $totalFormatado = number_format($total, 2, ',', '.');
-echo "<br><br>Valor Total: R$ $totalFormatado\n";
+echo "Valor Total: R$ $totalFormatado";
